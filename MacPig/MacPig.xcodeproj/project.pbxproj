@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F3E70EE21FA27AC00409124 /* BonusPointsInc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3E70ED21FA27AC00409124 /* BonusPointsInc.swift */; };
 		BE11289921F7652200A6B046 /* TournamentPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE11289821F7652200A6B046 /* TournamentPlayer.swift */; };
 		BE11289B21F765DB00A6B046 /* TournamentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE11289A21F765DB00A6B046 /* TournamentManager.swift */; };
 		BE1128A221F7848E00A6B046 /* PlayerRandom.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1128A121F7848E00A6B046 /* PlayerRandom.swift */; };
@@ -32,6 +33,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3F3E70ED21FA27AC00409124 /* BonusPointsInc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonusPointsInc.swift; sourceTree = "<group>"; };
 		BE11289821F7652200A6B046 /* TournamentPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournamentPlayer.swift; sourceTree = "<group>"; };
 		BE11289A21F765DB00A6B046 /* TournamentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournamentManager.swift; sourceTree = "<group>"; };
 		BE1128A121F7848E00A6B046 /* PlayerRandom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerRandom.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 			children = (
 				BE3DFE8D21EF8F6100D84C14 /* PlayerHoldFixed.swift */,
 				BE1128A121F7848E00A6B046 /* PlayerRandom.swift */,
+				3F3E70ED21FA27AC00409124 /* BonusPointsInc.swift */,
 			);
 			path = Players;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE3DFE8C21EF8E4300D84C14 /* PlayerProtocol.swift in Sources */,
+				3F3E70EE21FA27AC00409124 /* BonusPointsInc.swift in Sources */,
 				BE11289921F7652200A6B046 /* TournamentPlayer.swift in Sources */,
 				BE3DFE8521EF8D6700D84C14 /* main.swift in Sources */,
 				BE3DFE9621F00DDE00D84C14 /* GameStatusUpdateProtocol.swift in Sources */,
@@ -296,9 +300,11 @@
 		BE3DFE8921EF8D6700D84C14 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9AS5ZQ7SDU;
+				DEVELOPMENT_TEAM = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
@@ -306,9 +312,11 @@
 		BE3DFE8A21EF8D6700D84C14 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9AS5ZQ7SDU;
+				DEVELOPMENT_TEAM = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
